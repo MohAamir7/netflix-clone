@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1250px,100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    height: 60px;
+}
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+    padding-top: 25px;
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+
+}
+
+.front{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 60px);
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.front> :first-child{
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+}
+.front> :nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.front> :nth-child(3){
+    font-size: 16px;
+    text-align: center;
+}
+.sepration{
+    height: 6px;
+    background-color: #393838;
+}
+.btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px 8px;
+    background-color: white;
+    font-weight: 400;
+    background-color: rgba(248,243,243,0.026);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.344);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.front-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 4px;;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgba(226, 221, 221, 0.3);
+
+}
+.btn-red-sm{
+    background-color:rgb(229, 9, 20);
+    color: white;
+}
+
+.first{
+    display: flex;
+    color: white;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.first> div :first-child{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first> div :nth-child(2){
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section img{
+    width: 30vw;
+    position: relative;
+    z-index: 1;
+    top: 4px;
+}
+.secImg{
+    position: relative;
+}
+.secImg video{
+    position: absolute;
+    top: 56px;
+    left: 17px;
+    width: 393px;
+}
+.second{
+    flex-direction: row-reverse;
+}
+
+.third .secImg video{
+    position: absolute;
+    top: 52px;
+    left: 79px;
+    width: 293px;
+}
+.faq{
+    color: white;
+    /* text-align: center; */
+    /* display: flex; */
+    /* flex-direction: column */
+    /* height: 70vh; */
+}
+.faqbox svg{
+    filter: invert(1);
+}
+.faqbox{
+    /* border: 1px solid white; */
+    background-color: rgb(45, 45, 45);
+    height: 15%;
+    width: 50vw;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.faq> h1{
+    padding: 25px 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.9rems;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+
+}
+.ques{
+    padding: 32px 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-items a{
+    color: #ffffff8c;
+
+}
+
+.footer-items a:hover{
+    color: white;
+}
